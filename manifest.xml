@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <manifest>
-  <remote name="origin" fetch="ssh://git@bitbucket.org/motabilityoperations/" />
+  <remote name="origin" fetch="https://github.com/developerinlondon/" />
   <default revision="master" remote="origin" />
   <project name="release-test-repo" path="./" revision="master" groups="build, destroy, release"/>
   <project name="release-test-external-repo" path="./external" revision="master" groups="release, external"/>
